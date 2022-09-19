@@ -177,7 +177,7 @@
       console.log(dataUrl);
       /* CHANGE THIS */
       const signature = document.getElementById(
-        "2-6008128/aos_final_signature_data-7e065aad-cec4-46f6-8975-79b03fb1fb27"
+        "2-6008128/aos_initial_inspection_data-6aca3cfc-63cd-452e-930a-39831b843104"
       );
       signature.textContent = dataUrl;
       /*  */
