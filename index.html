@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+      type="text/javascript"
+    ></script>
+    <link href="./css/style.css" rel="stylesheet"/>     
+    <link href="./css/tabstyle.css" rel="stylesheet"/>     
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      charset="utf-8"
+      type="text/javascript"
+      src="//js.hsforms.net/forms/v2.js?pre=1"
+    ></script>
+    <script src="./js/changelayout.js" defer type="text/javascript"></script>
+  <script src="./js/sign.js" defer type="text/javascript"></script>
+  <script src="./js/tabcontent.js" defer type="text/javascript"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Tab links -->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'formcontainer')" id="defaultOpen" >Details</button>
+      <button class="tablinks" onclick="openCity(event, 'specialcontainer')">Signature</button>
+    </div>
+
+    <div id="formcontainer" class="container tabcontent">
+      <!-- CHANGE THIS WITH THE EMBEDDED CODE -->
+<script>
+  hbspt.forms.create({
+    region: "na1",
+    portalId: "5623527",
+    formId: "6aca3cfc-63cd-452e-930a-39831b843104",
+    version: "V2_PRERELEASE"
+  });
+</script>
+    <!-- END -->
+    </div>
+    <div id="specialcontainer" class="container tabcontent">
+      <div class="row">
+        <div class="col-md-12">
+          <h1>E-Signature</h1>
+          <p>Sign in the canvas below and save your signature as an image!</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <canvas id="sig-canvas" width="620" height="160">
+            Get a better browser, bro.
+          </canvas>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <button class="btn btn-primary" id="sig-submitBtn">
+            Submit Signature
+          </button>
+          <button class="btn btn-secondary" id="sig-clearBtn">
+            Clear Signature
+          </button>
+        </div>
+      </div>
+      <br />
+      <div class="row" hidden>
+        <div class="col-md-12">
+          <textarea id="sig-dataUrl" class="form-control" rows="5">
+  Data URL for your signature will go here!</textarea
+          >
+        </div>
+      </div>
+      <br />
+      <div id="div-sig-image" class="row">
+        <div class="col-md-12">
+          <img id="sig-image" src="" alt="Your signature will go here!" />
+        </div>
+      </div>
+    </div>
+  
+  </body>
+  
+</html>
+

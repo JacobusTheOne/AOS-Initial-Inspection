@@ -1,0 +1,116 @@
+* {
+  max-width: 768px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  max-width: 768px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type="submit"] {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 768px;
+  size: block;
+  margin-left: 10px;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.FormContainer {
+  width: 100%;
+  margin: auto;
+}
+.specialcontainer {
+  max-width: 768px;
+}
+@media screen and (max-width: 768px) {
+  .col-25,
+  .col-75,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+#sig-canvas {
+  border: 2px dotted #cccccc;
+  border-radius: 15px;
+  cursor: crosshair;
+  height: auto;
+  width: 100%;
+  max-width: 620px;
+  min-height: 160px;
+  padding: 15px;
+}
+/* Scales all of the fonts on the page  */
+html {
+  -webkit-text-size-adjust: 125%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* Changes the width of the form to scale depending on rotation */
+.form-container {
+  width: 90%;
+}
+/* Adjusts the font size to increase the hit area for each input field */
+input {
+  font-size: 125%;
+}
+input[type="checkbox"] {
+  width: 35px;
+  height: 35px;
+}
+input[type="radio"] {
+  width: 35px;
+  height: 35px;
+}
+select {
+  font-size: 100%;
+  padding: 0 0 0 10px;
+}
+fieldset {
+  -moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  margin-bottom: 25px;
+  background-color: #f4faff;
+}
+legend {
+  font-size: 22px;
+  color: #2d7ab6;
+}
