@@ -179,6 +179,7 @@
       const signature = document.getElementById(
         "2-6008128/aos_initial_inspection_data-6aca3cfc-63cd-452e-930a-39831b843104"
       );
+      signature.required = false;
       signature.textContent = dataUrl;
       /*  */
       sigImage.setAttribute("src", dataUrl);

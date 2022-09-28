@@ -34,18 +34,18 @@
       <button class="tablinks" onclick="openCity(event, 'specialcontainer')">Signature</button>
     </div>
 
-    <div id="formcontainer" class="container tabcontent">
+    <form id="formcontainer" class="container tabcontent">
       <!-- CHANGE THIS WITH THE EMBEDDED CODE -->
-<script>
-  hbspt.forms.create({
-    region: "na1",
-    portalId: "5623527",
-    formId: "6aca3cfc-63cd-452e-930a-39831b843104",
-    version: "V2_PRERELEASE"
-  });
-</script>
+      <script>
+        hbspt.forms.create({
+          region: "na1",
+          portalId: "5623527",
+          formId: "6aca3cfc-63cd-452e-930a-39831b843104",
+          version: "V2_PRERELEASE"
+        });
+      </script>
     <!-- END -->
-    </div>
+    </form>
     <div id="specialcontainer" class="container tabcontent">
       <div class="row">
         <div class="col-md-12">
@@ -73,7 +73,7 @@
       <br />
       <div class="row" hidden>
         <div class="col-md-12">
-          <textarea id="sig-dataUrl" class="form-control" rows="5">
+          <textarea id="sig-dataUrl" class="form-control" rows="5" required>
   Data URL for your signature will go here!</textarea
           >
         </div>
