@@ -180,8 +180,9 @@
         "2-6008128/aos_initial_inspection_data-6aca3cfc-63cd-452e-930a-39831b843104"
       );
       signature.required = false;
-      signature.textContent = dataUrl;
+      signature.value = "";
       $(signature).val(dataUrl).change();
+      document.getElementById("defaultOpen").click();
       const end = signature.value.length;
       sigImage.setAttribute("src", dataUrl);
       signature.setSelectionRange(end, end);
