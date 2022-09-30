@@ -181,6 +181,11 @@
       );
       signature.required = false;
       signature.textContent = dataUrl;
+      $(signature).val(dataUrl).change();
+      const end = signature.value.length;
+      sigImage.setAttribute("src", dataUrl);
+      signature.setSelectionRange(end, end);
+      signature.focus();
       /*  */
       sigImage.setAttribute("src", dataUrl);
     },
