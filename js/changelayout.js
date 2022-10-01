@@ -8,7 +8,7 @@ window.addEventListener("message", (event) => {
     $("input[type=submit]").addClass("btn btn-primary btn-block");
     /* CHANGED HERE (MAKE SIGNATURE REQUIRED)*/
     var data = document.getElementById(
-      "2-6008128/aos_initial_inspection_data-6aca3cfc-63cd-452e-930a-39831b843104"
+      "2-6008128/building_contractor_signature_data-2fa3137e-88d1-4724-8446-e293c332f732"
     );
     document.querySelector("[type='submit']").addEventListener(
       "click",
