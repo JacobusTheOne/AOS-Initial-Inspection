@@ -1,3 +1,7 @@
+* {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
 html {
   display: block;
   margin: auto;
@@ -117,3 +121,139 @@ legend {
   font-size: 22px;
   color: #2d7ab6;
 }
+
+/* JAMES STYLE CHANGES */
+
+body {
+  max-width: 800px !important;
+  margin: 30px auto !important;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(53,105,128,.3),0 6px 20px 0 rgba(165,200,213,.41);
+  background: #f4f8fa !important;
+}
+
+.tab {
+  background-color: #ffffff !important;
+}
+
+#formcontainer {
+  background-color: #ffffff !important;
+  padding: 40px;
+}
+
+#formcontainer h1 {
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #33475b;
+}
+
+#formcontainer div.hs-richtext h4 strong {
+  color: #33475b;
+  font-size: 14px;
+}
+
+#specialcontainer {
+  background-color: #ffffff !important;
+  padding: 40px;
+}
+
+#specialcontainer h1 {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+#specialcontainer p {
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+#specialcontainer h1,
+#specialcontainer p {
+  color: #33475b;
+}
+
+#specialcontainer .btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-weight: 700;
+  border-radius: 0px !important;
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #BF9002 !important;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+label {
+  font-size: 13px !important;
+  color: #33475b !important;
+  padding: 0 !important;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input:not([type="checkbox"]):not([type="file"]):not([type="submit"]),
+select {
+  min-height: 27px;
+  padding: 0 15px;
+  border-radius: 0;
+  background-color: #f5f8fa;
+  height: 40px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #33475b;
+  border: 1px solid #cbd6e2;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+input[type="submit"] {
+  width: fit-content !important;
+  margin: 20px auto 0 0;
+  border-radius: 0px !important;
+  padding: 12px 24px !important;
+  font-weight: 700;
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #BF9002 !important;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+input[type="submit"]:hover {
+  background: #000000 !important;
+  border-color: #000000 !important;
+  color: #BF9002 !important;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px !important;
+}
+
+textarea {
+  background-color: #f5f8fa !important;
+  color: #33475b !important;
+}
+
+.container {
+  max-width: 100% !important;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 0 !important;
+    box-shadow: none !important;
+    width: 100%;
+  }
+
+  #formcontainer {
+    padding: 20px;
+  }
+
+  #specialcontainer {
+    padding: 20px;
+  }
+}
+
