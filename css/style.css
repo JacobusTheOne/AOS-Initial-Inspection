@@ -229,7 +229,17 @@ input[type="submit"]:hover {
 }
 
 input[type="checkbox"] {
-  margin-right: 10px !important;
+  margin-right: 20px !important;
+  width: 15px;
+  height: 15px;
+}
+
+.inputs-list {
+  padding-left: 0 !important;
+}
+
+ul {
+  list-style: none !important;
 }
 
 textarea {
